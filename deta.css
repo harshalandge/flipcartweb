@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    background-color: rgb(252, 250, 250);
+    width: 1500px;
+    height: 600px;
+    margin: auto;
+    border-style: double;
+}
+.header{
+    background-color: rgb(17, 110, 223);
+    width: 1500px;
+    height: 50px;
+    float: left;
+}
+.branding{ 
+ background-image: url(images/Flipkart-Plus\ \(1\).jpg);
+    background-color:rgb(10, 98, 199) ;
+    width: 300px;
+    height: 50px;
+    float: left;
+}
+.branding img{
+    height: 50px;
+    width: 300px;
+background-repeat: no-repeat;
+}
+.search{
+   padding-top: 15px;
+    height: 40px;
+    width: 300px;
+    float: left;
+}
+.menu1{
+    background-color: rgb(17, 110, 223) ;
+height: 50px;
+width: 900px;
+float: left;
+}
+.menu1 ul li{
+
+    float: left;
+    list-style: none;
+    height: 50px;
+    width: 200px;
+    color: black;
+    background-color:  rgb(238, 240, 242);
+    margin-left: 10px;
+    text-align:center;
+    text-decoration:none;
+    line-height: 40px;
+    position: relative;
+    border-radius: 5px;
+    display: block;
+    }
+    .menu1 ul li:hover{
+         background-color:  rgb(62, 116, 171);
+        height: 40px;
+        
+    text-align:center;}
+
+.menu1 ul li>ul li{
+    display: none;}
+ .menu1 ul li:hover>ul li {
+        display:block;}
+.container{
+
+    background-color: rgb(23, 3, 87);
+    width: 1500px;
+    height: 500px;
+    float: left;
+}
+.cont1{
+   
+    background-color: rgb(246, 251, 252);
+    width: 500px;
+    height: 500px;
+    float: left;
+  
+}
+.cont1 img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    float: left;
+    
+}
+.cont2{
+    
+    background-color: rgb(128, 158, 171);
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+
+.box{
+height: 50px;
+width: 500px;
+
+}
+.box img{
+    width: 500px;
+    height: 50px;
+   
+    background-repeat: no-repeat;
+}
+.table{
+    margin-left: 50px;
+    height: 600px;
+    width: 500px;
+   
+}
+.table td,tr,button{
+cursor: pointer;
+
+}
+
+.cont3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(246, 249, 250);
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+.cont3 img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    float: left;
+    
+}
+
+.cont4{
+    height: 50px;
+    width: 1500px;
+    color: darkgoldenrod;
+    background-color: rgb(7, 7, 83);
+    }
+    .cont4 ul li, img{
+    cursor: pointer;
+    }
+    .d1{
+      height: 50px;
+      width: 200px;
+      float: left;
+      color: darkgoldenrod;
+      background-color: rgb(7, 7, 83);
+    }
+    .d1 ul li{
+      text-align: center;
+      padding: 10px;
+    }
+    .d2{
+      height: 50px;
+      width: 200px;
+      float: left;
+      color: darkgoldenrod;
+      background-color: rgb(7, 7, 83);
+    }
+    .d2 ul li{
+      text-align: center;
+      padding: 10px;
+    }
+    .d3{
+      height: 50px;
+      width: 200px;
+      float: left;
+      color: darkgoldenrod;
+      background-color: rgb(7, 7, 83);
+    }
+    .d3 ul li{
+      text-align: center;
+      padding: 10px;
+    }
+    .d4{
+      height: 50px;
+      width: 200px;
+      float: left;
+      color: darkgoldenrod;
+      background-color: rgb(7, 7, 83);
+    }
+    .d4 ul li{
+      text-align: center;
+      padding: 10px;
+    }
+    .d5{
+      
+        height: 50px;
+        width: 200px;
+        float: left;
+        background-color: rgb(7, 7, 83);
+        color: darkgoldenrod;
+      }
+      .d5 ul li{
+        text-align: center;
+        padding: 10px;
+      }
+    
+    .d6{
+      height: 50px;
+      width: 500px;
+      float: left;
+      background-color: rgb(7, 7, 83);
+      color: darkgoldenrod;
+    }
+    
+    .d6 img{
+    height: 30px;
+    width: 90px;
+    margin-right: 10px;
+    margin: 10px;
+    }
